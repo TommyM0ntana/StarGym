@@ -228,7 +228,7 @@ p {
   color: var(--p-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
-  line-height: 1.5em;
+  line-height: 2rem;
 }
 
 b,
@@ -600,7 +600,8 @@ a:focus {
 .team-thumb:hover {
   ...transition: 0.5s ease;
   cursor: pointer;
-  margin: -8px;
+  transform: translateY(-2px);
+  box-shadow: 0px 15px 20px rgba(0, 5, 3, 0.4);
 }
 
 .team-thumb {
@@ -636,13 +637,14 @@ a:focus {
 .class-thumb:hover {
   ...transition: 0.5s ease;
   cursor: pointer;
-  margin: -8px;
+  transform: translateY(-2px);
+  box-shadow: 0px 15px 20px rgba(0, 5, 3, 0.4);
 }
 
 .class-thumb {
   position: relative;
   transform: scale(1);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 5, 3, 0.4);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
